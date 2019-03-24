@@ -1,4 +1,4 @@
-# 打內觴人 # ## keep working, keep learning, keep writing... ##
+# 【打內觴人】 keep working, keep learning, keep writing... #
 
 * 學習清單
 
