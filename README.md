@@ -1,9 +1,9 @@
-# 打內觴人 #
-> ## keep working, keep learning, keep writing... ##
+# 打內觴人 # ## keep working, keep learning, keep writing... ##
 
 * 學習清單
 
 * .Net *
+ 
 |項目|標籤|完成狀態|
 |----|----|-------|
 |Thread相關|-|-|
@@ -11,6 +11,7 @@
 
 
 * 書單 *
+ 
 |書名|閱讀內容|完成狀態|
 |----|----|-------|
 |CLR via C#|-|-|
