@@ -33,6 +33,11 @@ namespace Filter
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            
+            services.AddMvc(option =>
+            {
+                option.Filters.Add<ExceptionFilter>(); //註冊 (Global)
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
