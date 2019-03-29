@@ -8,20 +8,28 @@ using Filter.Models;
 
 namespace Filter.Controllers
 {
+     [AddHeader("controller", "Demo")]
     public class DemoController : Controller
     {
-        public IActionResult Index()
+        [AddHeader("user", "17842")]
+        public IActionResult WithAttribute()
         {
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult WithoutAttribute()
         {
-            ViewData["Message"] = "Your application description page.";
-
             return View();
         }
 
-     
+        public IActionResult Exception()
+        {
+            throw new Exception("唷!~在Controller發生問題啦~");
+        }
+
+        public IActionResult ExceptionA()
+        {
+            throw new Exception("是誰呢~發生錯誤啦!");
+        }
     }
 }
