@@ -21,7 +21,10 @@
 |Redis Cluster|-|-|
 |UML練習|-|-|
 
-非同步: http://www.albahari.com/threading/
+非同步: 
+http://www.albahari.com/threading/
+https://blog.miniasp.com/post/2009/03/08/Multi-Threading-in-CSharp-Learning-Resources
+https://docs.microsoft.com/en-us/dotnet/standard/parallel-processing-and-concurrency
 
 + 書單
  
