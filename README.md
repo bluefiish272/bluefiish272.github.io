@@ -34,3 +34,12 @@ https://docs.microsoft.com/en-us/dotnet/standard/parallel-processing-and-concurr
 |大話設計模式|-|-|
 |Web API建構與設計|-|-|
 
+
+
+Read to Study:
+ASP.NET Core 簡介
+https://docs.microsoft.com/zh-tw/aspnet/core/?view=aspnetcore-2.2
+ASP.NET Core 2 系列
+https://blog.johnwu.cc/categories/asp-net-core/
+ASP.NET Core 2 系列 - 網頁內容安全政策 (Content Security Policy)
+https://ithelp.ithome.com.tw/articles/10196896
