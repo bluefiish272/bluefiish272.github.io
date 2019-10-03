@@ -62,8 +62,7 @@
                 $label.appendTo($('.item-container'));
             }
         })
-        $('.item-tag-btn').click(function () {
-            alert('as');
+        $('.item-container').on('click','.item-tag-btn', function () {
             $(this).remove();
         })
 
