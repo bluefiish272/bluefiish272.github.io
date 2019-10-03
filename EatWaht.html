@@ -76,12 +76,16 @@
         })
 
         //產生min到max之間的亂數
-        function getRandom(min,max) {
-            return Math.floor(Math.random()*(max-min+1))+min;
+        function getRandom(min, max) {
+            // Math.random() => 隨機產生0~1之間的小數 可以想成係數
+            // Math.floor() => 最大整數 5.6=>5  -5.6 =>-6
+            // ref: https://ithelp.ithome.com.tw/articles/10197904
+            // Math.floor(Math.random() * (max - min + 1))
+            return Math.floor(Math.random() * (max - min + 1)) + min;
         }
 
         function getResult(array) {
-            $max = array.length - 1;
+            $max = array.length -1;
             $randomIndex = getRandom(0, $max);
             return array[$randomIndex];
         }
