@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./source/bootstrap-4.3.1-dist/css/bootstrap.min.css" />
+    <script src="./source/jquery-3.4.1.js"></script>
+    <script src="./source/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <title>要吃蝦咪捏</title>
+</head>
+
+<body>
+    <style type="text/css">
+        body {
+            margin: 35px 200px 35px 200px;
+        }
+        label {
+            padding-left:15px;
+        }
+    </style>
+
+    <hr />
+
+    <div class="row">
+        <div class="input-group col-3">
+            <input type="text" class="form-control add-item-input" placeholder="輸入你要吃的項目">
+            <div class="input-group-append">
+                <button class="btn btn-outline-warning" type="button" id="add-item-btn">加入項目</button>
+            </div>
+        </div>
+        <div class="input-group col-3">
+            <div class="input-group-prepend">
+                <button class="btn btn-outline-success" type="button" id="radom">抽籤</button>
+            </div>
+            <input type="text" id="result" class="form-control" placeholder="結果" readonly>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <div class="row">
+            <label>項目</label>
+        </div>
+        <div class="item-container">
+        </div>
+    </div>
+    <hr />
+</body>
+</html>
+<script>
+    $(function(){
+        $('#add-item-btn').click(function () {
+            $item = $('.add-item-input').val();
+            if ($item) {
+                $label = $('<label></label>').addClass('item-tag');
+
+                $('<button></button>').attr('type', 'button')
+                    .addClass('btn btn-light item-tag-btn')
+                    .text($item)
+                    .appendTo($label);
+                $label.appendTo($('.item-container'));
+            }
+        })
+        $('.item-tag-btn').click(function () {
+            alert('as');
+            $(this).remove();
+        })
+
+        $('#radom').click(function () {
+            $itemButtons = $('.item-tag-btn');
+            $itemArray = $.map($itemButtons, function(item, index) {
+                  return item.innerText;
+            })
+            $result = getResult($itemArray);
+            $('#result').val($result);
+        })
+
+        //產生min到max之間的亂數
+        function getRandom(min,max) {
+            return Math.floor(Math.random()*(max-min+1))+min;
+        }
+
+        function getResult(array) {
+            $length = array.length;
+            $randomIndex = getRandom(0, $length);
+            return array[$randomIndex];
+        }
+    })
+</script>
