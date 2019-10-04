@@ -11,13 +11,13 @@
 於是還是要認真地看一下，RWD到底是什麼。
 
 #### 閱讀清單
-* [Responsive Web Design](https://alistapart.com/article/responsive-web-design
+* [Responsive Web Design](https://alistapart.com/article/responsive-web-design)
 * [FluidGrids](https://alistapart.com/article/fluidgrids/)
 
 
 
 ####
->> We can design for an optimal viewing experience, 
->> but embed standards-based technologies into our designs to make them not only more flexible, 
->> but more adaptive to the media that renders them. 
->> In short, we need to practice responsive web design.
+> We can design for an optimal viewing experience, 
+> but embed standards-based technologies into our designs to make them not only more flexible, 
+> but more adaptive to the media that renders them. 
+> In short, we need to practice responsive web design.
