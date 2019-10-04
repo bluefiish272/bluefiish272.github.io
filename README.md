@@ -1,45 +1,43 @@
-# 【打內觴人】 keep working, keep learning, keep writing... #
+# 【打內觴人】   
+## keep working, keep learning, keep writing... #
 
-### 學習清單 ###
+這是屬於我自己的...  
+技術札記、工作雜感
 
-+ .Net / C# / OOP / 設計模式
- 
-|項目|標籤|閱讀|實作|
-|----|:----:|----:|----:|
-|Program, Process, Thread|N/A|`50%`|`0%`|
-|Thread的同步與非同步|N/A|`10%`|`0%`|
-|Lock, 鎖|N/A|`30%`|`0%`|
-|委派方法|N/A|`70%`|`0%`|
-|泛型&條件約束|N/A|`50%`|`0%`|
-|Real Proxy|N/A|`20%`|`0%`|
-|簡單工廠模式|設計模式|`100%`|`100%`|
+#### 小小前言
 
-+ 其它...
- 
-|項目|標籤|完成狀態|
-|---|:----:|:----:|
-|Redis Cluster|-|-|
-|UML練習|-|-|
+在2016年末~2017年初，開始進入了網站工程師的行列，
+從javascript上手，開始走向C#，用MVC5框架學習。 
 
-非同步: 
-http://www.albahari.com/threading/
-https://blog.miniasp.com/post/2009/03/08/Multi-Threading-in-CSharp-Learning-Resources
-https://docs.microsoft.com/en-us/dotnet/standard/parallel-processing-and-concurrency
+然後第一份工程師工作，老大選擇用了  
+.net core 1.1 + .net framework + ...小菜鳥不會全盤理解的...  
 
-+ 書單
- 
-|書名|已讀內容|閱讀進度|
-|----|-----|:----:|
-|CLR via C#||-|
-|大話設計模式|-|-|
-|Web API建構與設計|-|-|
+開始用這個框架開發公司的CRM(我覺得可以這樣簡述)，
+過程中慢慢地各種變化：  
+.net framework 4.5.2 -> 4.6.2 ...   
+.net core 1.1 ->2.1 -> 2.2...  
+  
+不同團隊總有不同分工，橫的切、直的切……
+
+而我一開始的老大，傾向讓新人什麼都碰，這樣才能什麼知道。  
+講白了就是先增加技術廣度~~比較不會被唬爛~~。
+  
+  
+#### 前端、後端、全端 ??
+...其實自己心裡一直掙扎。 
+不管選擇什麼，都是要持續學習，一邊拓展廣度、一邊向下扎穩馬步。
+其實不論選擇什麼都是辛苦的路。
 
 
+#### 很多時候想說乾脆放棄好了
+就跑去看看影集、墮落人生，接著還是摸鼻子回來看些技術文章。
+很多前輩的文章，有的精簡、有的技術歷史，其實讀起來真的頗有滋味。  
 
-Read to Study:
-ASP.NET Core 簡介
-https://docs.microsoft.com/zh-tw/aspnet/core/?view=aspnetcore-2.2
-ASP.NET Core 2 系列
-https://blog.johnwu.cc/categories/asp-net-core/
-ASP.NET Core 2 系列 - 網頁內容安全政策 (Content Security Policy)
-https://ithelp.ithome.com.tw/articles/10196896
+看著他們的文章，或他們在研討會、Lab的身影，
+心中會期許自己未來也是一個有魅力的前輩，如此帶領著後輩。
+可是我有脾氣也還有很多需要被磨鍊的地方。
+  
+
+
+
+
