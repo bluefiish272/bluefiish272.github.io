@@ -1,8 +1,9 @@
 ## RWD的學習筆記
 
 #### 小小前言
-剛學WEB的時候, 因為使用微軟的MVC樣板，所以習慣有bootstrap...
-進入公司開發後，因為有UI或者是已經處理過的樣板框架，總認為RWD這件事情就是Bootstrap...
+剛學WEB的時候, 因為使用微軟的MVC樣板，所以習慣有bootstrap...  
+進入公司開發後，因為有UI或者是已經處理過的樣板框架，總認為RWD這件事情就是Bootstrap...  
+
 ~~直到我膝蓋中了一箭~~
 
 自己嘗試用純Html寫小工具的時候，因為想要電腦與手機都可以輕鬆閱讀，才發現Bootstrap的GridSystem...只是邊邊角角呀!
@@ -13,6 +14,7 @@
 #### 名詞速記
 * CSS3: media queries
 * 設計方向: Flaxible / F
+* screen resolution ??
 
 
 #### 閱讀清單
