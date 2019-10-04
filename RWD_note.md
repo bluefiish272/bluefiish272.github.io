@@ -10,13 +10,18 @@
 
 於是還是要認真地看一下，RWD到底是什麼。
 
+#### 名詞速記
+* CSS3: media queries
+* 設計方向: Flaxible / F
+
+
 #### 閱讀清單
 * [Responsive Web Design](https://alistapart.com/article/responsive-web-design)
 * [FluidGrids](https://alistapart.com/article/fluidgrids/)
 
 
 
-####
+#### 部分摘要
 > We can design for an optimal viewing experience, 
 > but embed standards-based technologies into our designs to make them not only more flexible, 
 > but more adaptive to the media that renders them. 
