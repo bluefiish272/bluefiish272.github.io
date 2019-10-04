@@ -21,3 +21,14 @@
 > but embed standards-based technologies into our designs to make them not only more flexible, 
 > but more adaptive to the media that renders them. 
 > In short, we need to practice responsive web design.
+
+> We can design for an optimal viewing experience, 
+> 	but embed standards-based technologies into our designs to make them not only more flexible, 
+> 	but more adaptive to the media that renders them. 
+> In short, we need to practice responsive web design.
+
+> A media query allows us to target not only certain device classes, 
+> 	but to actually inspect the physical characteristics of the device rendering our work. 
+> For example, following the recent rise of mobile WebKit, 
+> 	media queries became a popular client-side technique for delivering a tailored style sheet to the iPhone, Android phones, and their ilk. 
+> To do so, we could incorporate a query into a linked style sheet’s media attribute...
