@@ -11,16 +11,20 @@
 
 於是還是要認真地看一下，RWD到底是什麼。
 
+#### 閱讀清單
+* [Responsive Web Design](https://alistapart.com/article/responsive-web-design)
+* [FluidGrids](https://alistapart.com/article/fluidgrids/)
+
+
 #### 名詞速記
 * CSS3: media queries
 * 設計方向: Flaxible / F
 * screen resolution ??
 
-
-#### 閱讀清單
-* [Responsive Web Design](https://alistapart.com/article/responsive-web-design)
-* [FluidGrids](https://alistapart.com/article/fluidgrids/)
-
+#### 筆記
+透過CSS3的media querier可以替不同的螢幕尺寸進行CSS的設計,  
+用圖塊的方式思考，將一行(100%)，再不同尺寸切分不同等分。例如：切成2等分: width: ≒48%; 切成3等分: width: ≒31%; ...依此類推。
+於是在不同尺寸的螢幕，一行就可以放下不同等份的圖塊。
 
 
 #### 部分摘要
