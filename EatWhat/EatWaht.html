@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../source/bootstrap-4.3.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./eatwhat.css" />
+    <script src="../source/jquery-3.4.1.js"></script>
+    <script src="../source/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./eatwhat.js" charset="utf-8"></script>
+    <title>抽大頭</title>
+</head>
+
+<body>
+    <h1>抽籤</h1>
+    <hr />
+    <div class="row">
+        <div class="col input-group grid">
+            <input type="text" maxlength="12" class="form-control add-item-input" placeholder="輸入你要吃的項目">
+            <div class="input-group-append">
+                <button class="btn btn-outline-warning" type="button" id="add-item-btn">加入項目</button>
+            </div>
+        </div>
+        <div class="col grid">
+            <select id="selectItems" class="custom-select">
+                <option selected>選擇後快速帶出選項</option>
+            </select>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <label>項目</label>
+    </div>
+    <hr />
+
+    <div class="item-container">
+    </div>
+    <div class="row">
+        <div class="input-group col">
+            <div class="input-group-prepend">
+                <button class="btn btn-outline-success" type="button" id="radom">抽籤</button>
+            </div>
+            <input type="text" id="result" class="form-control" placeholder="結果" readonly>
+        </div>
+    </div>
+</body>
+</html>
