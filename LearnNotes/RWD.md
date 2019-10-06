@@ -14,17 +14,27 @@
 #### 閱讀清單
 * [Responsive Web Design](https://alistapart.com/article/responsive-web-design)
 * [FluidGrids](https://alistapart.com/article/fluidgrids/)
+* [Responsive Web Design (RWD) 響應式網站開發教學與心得](https://sweeteason.pixnet.net/blog/post/42130394#c1)
+* [Bootstrap-Layout](https://getbootstrap.com/docs/4.3/layout/overview/)
+* [MDN-CSS彈性盒子用法](https://developer.mozilla.org/zh-TW/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)
+* [MDN-Basic concepts of flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 
+  
+閱讀過程中夾雜的小小實作，但說實在的想要直接無痛上手是很不切實際的行為。  
+因為對CSS沒有基礎概念，只是套用了bootstrap4就以為自己就是無敵(...這想法真嫩)。  
+所以還是要稍微看一下什麼是Flexbox、Fluid、Float...那些乍看很抽象的名詞。  
+然後完成一個作品--為自己的GitHub Blog設計版面且至少可以在兩種裝置上好好閱讀。
 
 #### 名詞速記
-* CSS3: media queries
-* 設計方向: Flaxible / F
+* CSS: media queries / Flexbox 
+* CSS Framwork: bootstrap
 * screen resolution ??
 
 #### 筆記
 透過CSS3的media querier可以替不同的螢幕尺寸進行CSS的設計,  
 用圖塊的方式思考，將一行(100%)，再不同尺寸切分不同等分。例如：切成2等分: width: ≒48%; 切成3等分: width: ≒31%; ...依此類推。
-於是在不同尺寸的螢幕，一行就可以放下不同等份的圖塊。
+於是在不同尺寸的螢幕，一行就可以放下不同等份的圖塊。  
+其實沒有想像中複雜，但實作也不是可以無痛上手。
 
 
 #### 部分摘要
@@ -43,3 +53,8 @@
 > For example, following the recent rise of mobile WebKit, 
 > 	media queries became a popular client-side technique for delivering a tailored style sheet to the iPhone, Android phones, and their ilk. 
 > To do so, we could incorporate a query into a linked style sheet’s media attribute...
+
+> 結論中提到 Fluid Grids、Fluid /Flexible Image、Media Queries 是進行 RWD 時最重要的三項技術
+> 1. 流動的區塊 (可隨著螢幕大小折行)
+> 2. 靈活有彈性的圖片 (可隨著螢幕大小比例伸縮)
+> 3. 使用CSS3 Media Queries (依照不同尺寸裝置給予相對應的呈現) 
