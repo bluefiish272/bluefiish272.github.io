@@ -1,4 +1,4 @@
-# 【打內人的修歛場】
+# 【打內人的修鍊場】
 **keep working, keep learning, keep writing...**  
 **這是屬於Achito的技術札記、工作雜感**
 
