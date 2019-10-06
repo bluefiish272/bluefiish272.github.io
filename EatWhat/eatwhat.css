@@ -1,5 +1,4 @@
 body {
-    margin: 60px 80px 35px 80px;
     font-family: 'Microsoft JhengHei UI','Arial';
     font-size: 20px;
 }
@@ -9,8 +8,8 @@ label {
 
 
 @media screen and (max-device-width: 480px) {
-    body {
-        margin: 25px 40px 20px 40px;
+    body
+    {
         font-size: 22px;
     }
     .grid {

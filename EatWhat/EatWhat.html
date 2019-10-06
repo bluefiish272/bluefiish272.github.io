@@ -11,36 +11,52 @@
 </head>
 
 <body>
-    <h1>抽籤</h1>
-    <hr />
-    <div class="row">
-        <div class="col input-group grid">
-            <input type="text" maxlength="12" class="form-control add-item-input" placeholder="輸入你要吃的項目">
-            <div class="input-group-append">
-                <button class="btn btn-outline-warning" type="button" id="add-item-btn">加入項目</button>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./EatWhat.html">抽籤工具 <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1 style="margin-top:20px;">抽籤</h1>
+        <hr />
+        <div class="row">
+            <div class="col input-group grid">
+                <input type="text" maxlength="12" class="form-control add-item-input" placeholder="輸入你要吃的項目">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-warning" type="button" id="add-item-btn">加入項目</button>
+                </div>
+            </div>
+            <div class="col grid">
+                <select id="selectItems" class="custom-select">
+                    <option selected>選擇後快速帶出選項</option>
+                </select>
             </div>
         </div>
-        <div class="col grid">
-            <select id="selectItems" class="custom-select">
-                <option selected>選擇後快速帶出選項</option>
-            </select>
+        <hr />
+        <div class="row">
+            <label>項目</label>
         </div>
-    </div>
-    <hr />
-    <div class="row">
-        <label>項目</label>
-    </div>
 
-    <div class="item-container">
-    </div>
-    <hr />
+        <div class="item-container">
+        </div>
+        <hr />
 
-    <div class="row">
-        <div class="input-group col">
-            <div class="input-group-prepend">
-                <button class="btn btn-outline-success" type="button" id="radom">抽籤</button>
+        <div class="row">
+            <div class="input-group col">
+                <div class="input-group-prepend">
+                    <button class="btn btn-outline-success" type="button" id="radom">抽籤</button>
+                </div>
+                <input type="text" id="result" class="form-control" placeholder="結果" readonly>
             </div>
-            <input type="text" id="result" class="form-control" placeholder="結果" readonly>
         </div>
     </div>
 </body>
